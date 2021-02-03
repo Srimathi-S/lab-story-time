@@ -53,6 +53,7 @@ describe("Check if the arguments passed corresponds to the given data types  - m
   });
 
   it("Defines moreAboutKaren", function() {
+    console.log(moreAboutKaren("Lily & Harold", 0, true));
     expect(typeof moreAboutKaren()).toBe("boolean");
   });
 
